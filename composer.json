@@ -1,0 +1,50 @@
+{
+  "name": "redbox/hui",
+  "description": "Work in progress",
+  "keywords": [
+    "Networking",
+    "IT",
+    "DNS",
+    "Migration",
+    "Tools",
+    "Utilities",
+    "Server",
+    "Unix",
+    "Windows"
+  ],
+  "homepage": "https://github.com/johnnymast/Hue",
+  "support": {
+    "issues": "https://github.com/johnnymast/Hue/issues",
+    "email": "mastjohnny@gmail.com"
+  },
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johnny Mast",
+      "email": "mastjohnny@gmail.com",
+      "homepage": "https://github.com/johnnymast",
+      "role": "lead"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Redbox\\Hue\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Redbox\\Hue\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
+
